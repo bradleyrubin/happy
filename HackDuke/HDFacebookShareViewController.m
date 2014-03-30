@@ -69,6 +69,10 @@
 - (void)loginViewShowingLoggedInUser:(FBLoginView *)loginView
 {
     [loginView removeFromSuperview];
+    
+    FBSession *session = [[FBSession alloc] init];
+    [FBSession setActiveSession:session];
+    
 }
 
 @end
