@@ -21,6 +21,9 @@
 		5DF1A27618E82FBC0075E6C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF1A25818E82FBC0075E6C8 /* UIKit.framework */; };
 		5DF1A27E18E82FBC0075E6C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DF1A27C18E82FBC0075E6C8 /* InfoPlist.strings */; };
 		5DF1A28018E82FBC0075E6C8 /* HackDukeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF1A27F18E82FBC0075E6C8 /* HackDukeTests.m */; };
+		5DF1A28E18E86AFE0075E6C8 /* HDMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF1A28D18E86AFE0075E6C8 /* HDMoviePlayerViewController.m */; };
+		5DF1A29218E86DE10075E6C8 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF1A29118E86DE10075E6C8 /* FacebookSDK.framework */; };
+		5DF1A29518E86EFC0075E6C8 /* HDFacebookShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF1A29418E86EFC0075E6C8 /* HDFacebookShareViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,14 @@
 		5DF1A27B18E82FBC0075E6C8 /* HackDukeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HackDukeTests-Info.plist"; sourceTree = "<group>"; };
 		5DF1A27D18E82FBC0075E6C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5DF1A27F18E82FBC0075E6C8 /* HackDukeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackDukeTests.m; sourceTree = "<group>"; };
+		5DF1A28C18E86AFE0075E6C8 /* HDMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMoviePlayerViewController.h; sourceTree = "<group>"; };
+		5DF1A28D18E86AFE0075E6C8 /* HDMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMoviePlayerViewController.m; sourceTree = "<group>"; };
+		5DF1A29118E86DE10075E6C8 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		5DF1A29318E86EFC0075E6C8 /* HDFacebookShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDFacebookShareViewController.h; sourceTree = "<group>"; };
+		5DF1A29418E86EFC0075E6C8 /* HDFacebookShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDFacebookShareViewController.m; sourceTree = "<group>"; };
+		5DF1A29718E8792B0075E6C8 /* FacebookSDKResources.bundle.README */ = {isa = PBXFileReference; lastKnownFileType = text; path = FacebookSDKResources.bundle.README; sourceTree = "<group>"; };
+		5DF1A29818E8792B0075E6C8 /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
+		5DF1A29918E8792B0075E6C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DF1A25718E82FBC0075E6C8 /* CoreGraphics.framework in Frameworks */,
+				5DF1A29218E86DE10075E6C8 /* FacebookSDK.framework in Frameworks */,
 				5DF1A25918E82FBC0075E6C8 /* UIKit.framework in Frameworks */,
 				5DF1A25518E82FBC0075E6C8 /* Foundation.framework in Frameworks */,
 			);
@@ -82,6 +94,7 @@
 		5DF1A24818E82FBC0075E6C8 = {
 			isa = PBXGroup;
 			children = (
+				5DF1A29618E8792B0075E6C8 /* Resources */,
 				5DF1A25A18E82FBC0075E6C8 /* HackDuke */,
 				5DF1A27918E82FBC0075E6C8 /* HackDukeTests */,
 				5DF1A25318E82FBC0075E6C8 /* Frameworks */,
@@ -101,6 +114,7 @@
 		5DF1A25318E82FBC0075E6C8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5DF1A29118E86DE10075E6C8 /* FacebookSDK.framework */,
 				5DF1A25418E82FBC0075E6C8 /* Foundation.framework */,
 				5DF1A25618E82FBC0075E6C8 /* CoreGraphics.framework */,
 				5DF1A25818E82FBC0075E6C8 /* UIKit.framework */,
@@ -119,6 +133,10 @@
 				5DF1A26A18E82FBC0075E6C8 /* HDViewController.m */,
 				5DF1A26C18E82FBC0075E6C8 /* Images.xcassets */,
 				5DF1A25B18E82FBC0075E6C8 /* Supporting Files */,
+				5DF1A28C18E86AFE0075E6C8 /* HDMoviePlayerViewController.h */,
+				5DF1A28D18E86AFE0075E6C8 /* HDMoviePlayerViewController.m */,
+				5DF1A29318E86EFC0075E6C8 /* HDFacebookShareViewController.h */,
+				5DF1A29418E86EFC0075E6C8 /* HDFacebookShareViewController.m */,
 			);
 			path = HackDuke;
 			sourceTree = "<group>";
@@ -150,6 +168,16 @@
 				5DF1A27C18E82FBC0075E6C8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DF1A29618E8792B0075E6C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DF1A29718E8792B0075E6C8 /* FacebookSDKResources.bundle.README */,
+				5DF1A29818E8792B0075E6C8 /* FBUserSettingsViewResources.bundle */,
+				5DF1A29918E8792B0075E6C8 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF1A29518E86EFC0075E6C8 /* HDFacebookShareViewController.m in Sources */,
+				5DF1A28E18E86AFE0075E6C8 /* HDMoviePlayerViewController.m in Sources */,
 				5DF1A26B18E82FBC0075E6C8 /* HDViewController.m in Sources */,
 				5DF1A26518E82FBC0075E6C8 /* HDAppDelegate.m in Sources */,
 				5DF1A26118E82FBC0075E6C8 /* main.m in Sources */,
@@ -377,6 +407,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HackDuke/HackDuke-Prefix.pch";
 				INFOPLIST_FILE = "HackDuke/HackDuke-Info.plist";
@@ -390,6 +424,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HackDuke/HackDuke-Prefix.pch";
 				INFOPLIST_FILE = "HackDuke/HackDuke-Info.plist";

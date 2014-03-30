@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HDViewController : UIViewController
-
+@interface HDViewController : UIViewController {
+UIImagePickerController *imagePickerController;
+}
 @end
